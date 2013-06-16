@@ -245,6 +245,9 @@ namespace UNIC {
   static const double perThousand = 0.001;
   static const double perMillion  = 0.000001;
 
+  static const double number_of_photoelectrons = 1;
+  static const double PE = number_of_photoelectrons;
+
 } // namespace UNIC
 
 #endif // UNITS_H

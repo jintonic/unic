@@ -92,6 +92,12 @@ namespace UNIC {
    static const double fermi_const = 1.166364e-5/GeV/GeV;
    static const double GF = fermi_const;
 
+   //
+   // galactic constants
+   //
+   static const double v_esc = 544*km/s;
+   static const double v_cir = 220*km/s;
+   static const double rho_D = 0.3*GeV/cm/cm/cm;
 } // namespace UNIC
 
 #endif // CONSTANTS_H

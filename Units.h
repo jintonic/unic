@@ -89,6 +89,11 @@ namespace UNIC {
   static const double hertz = 1./second;
   static const double kilohertz = 1.e+3*hertz;
   static const double megahertz = 1.e+6*hertz;
+  static const double gigahertz = 1.e+9*hertz;
+  static const double Hz = hertz;
+  static const double kHz = kilohertz;
+  static const double MHz = megahertz;
+  static const double GHz = gigahertz;
 
   // symbols
   static const double ns = nanosecond;

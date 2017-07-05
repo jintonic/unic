@@ -1,6 +1,4 @@
-unic - units and constants
-
-#####Concept
+##### Concept
 
 It is meant to extend the 
 [CLHEP](http://proj-clhep.web.cern.ch/proj-clhep/)
@@ -25,13 +23,13 @@ The reason not to have nested namespaces,
 such as ```UNIC::Unit```, ```UNIC::Const``` and ```UNIC::Math```,
 is to save typing.
 
-#####Installation
+##### Installation
 
 Modify the prefix in the first line of Makefile and ```make```.
 After a successful installation,
 header files are copied to ```/prefix/include/UNIC/```.
 
-#####Usage
+##### Usage
 
 ```cpp
 #include <UNIC/Units.h>
